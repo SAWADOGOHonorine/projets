@@ -4,7 +4,7 @@ import LoginForm from '../Forms/LoginForm';
 
 export default function LoginScreen({ navigation }) {
   const handleLogin = (data) => {
-    // TODO: vérifier les identifiants via API
+
     console.log('Login avec', data);
     navigation.navigate('Home');
   };
